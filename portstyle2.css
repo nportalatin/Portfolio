@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+.content{
+	width: 1316px;
+	height: 2000px;
+	margin: auto;
+	background-color: white;
+	border-style: solid;
+	border-width: 50px;
+	border-color:rgba(245,245,245,1.00);
+}
+.imgcontainer{
+	width:1200px;
+	height:805px;
+	background-color: rgba(245,245,245,1.00);
+	margin: auto;
+	margin-top: 1070px;
+}
+.outsidebox{
+	width: 385px;
+	height:385px;
+	background-color: white;
+	float: left;
+	margin-left: 11px;
+	margin-top: 11px;
+	align-content: center;
+}
+.imgbox{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+.button{
+	width: 170px;
+	height: 50px;
+	border-style: solid;
+	border-width: 5px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 40px
+}
+.arrow {
+  	border: solid black;
+ 	border-width: 0 4px 4px 0;
+ 	display: inline-block;
+  	padding: 5px;
+	float: left;
+	margin-top: 16px;
+	margin-left: 14px
+}
+
+.right {
+  	transform: rotate(135deg);
+  	webkit-transform: rotate(135deg);
+}
+.nametag{
+	width: auto;
+	height: auto;
+	text-align:center;
+	float:right;
+	transform: rotate(90deg);
+	margin-top:140px;
+	margin-right: -190px
+}
+.gallarylogo{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 400px;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: 20px;
+	background-image:url("flower.png");
+}
+p{
+	font-family: 'Lexend Deca', sans-serif;
+	font-color:black;
+	font-size:23px
+}
+a{
+	color: black;
+	text-decoration: none;
+	font-size: 35px;
+	font-family: 'Lexend Deca', sans-serif;
+}
+h1{
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 35px;
+}
+a:link {
+  color: black;
+}
+
+a:hover {
+  color:dimgray;
+}
+.nametag h1{
+	font-size:30px;
+}

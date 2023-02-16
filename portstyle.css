@@ -1,0 +1,75 @@
+/* CSS Document */
+
+.content{
+	width: 1322px;
+	height: 1056px;
+	margin: auto;
+	background-color: white;
+	border-style: solid;
+	border-width: 50px;
+	border-color:rgba(245,245,245,1.00);
+	background-image:url("backimg.png")
+}
+.wideimage{
+	width: 1000px;
+	height:500px;
+	background-color: aqua;
+	float: left;
+	margin-left: 25px
+}
+.button{
+	width: 170px;
+	height: 50px;
+	border-style: solid;
+	border-width: 5px;
+	float: right;
+	margin-top: -140px;
+	margin-right: 364px;
+	text-align: center
+}
+.arrow {
+	margin-left: 4px;
+	margin-bottom: 4px;
+  	border: solid black;
+ 	border-width: 0 4px 4px 0;
+ 	display: inline-block;
+  	padding: 5px;
+}
+
+.right {
+  	transform: rotate(-45deg);
+  	webkit-transform: rotate(-45deg);
+}
+.nametag{
+	text-align: center;
+	float:right;
+	transform: rotate(90deg);
+	margin-top:180px;
+	margin-right: -110px
+}
+p{
+	font-family: 'Lexend Deca', sans-serif;
+	font-color:black;
+	font-size:23px
+}
+a{
+	color: black;
+	text-decoration: none;
+	font-size: 35px;
+	font-family: 'Lexend Deca', sans-serif;
+}
+h1{
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 35px;
+}
+a:link {
+  color: black;
+}
+
+a:hover {
+  color:dimgray;
+}
+.nametag h1{
+	font-size:30px;
+}
+
